@@ -1,0 +1,57 @@
+.image-container  {
+    border: 8px solid rgba(0, 0, 0, .1) !important;
+}
+.v-container {
+    gap: 1rem;
+}
+.v-container>div {
+    flex: 1;
+}
+.v-right {
+    gap: .5rem;
+}
+
+.accordion {
+    border: none;
+    width: 100%;
+}
+.accordionItem {
+    background-color: white;
+    border: 2px solid rgba(0, 0, 0, .1);
+    border-radius: 8px;
+    margin-bottom: 1rem;
+    text-align: center;
+    padding: 1rem;
+    
+}
+.accordionItem.expanded {
+    box-shadow: var(--shadow);
+}
+.accordionItemButton {
+    background-color: white;
+    cursor: pointer;
+    border-radius: 8px;
+    justify-content: space-between !important;
+}
+.icon {
+    padding: 8px; 
+    background-color: #efefef;
+    border-radius: 8px;
+    color: var(--blue);
+}
+
+.primaryText {
+font-size: .8rem !important;
+}
+@media (max-width: 640px) {
+    .v-container {
+        flex-direction: column;
+    }
+
+
+}
+@media (max-width: 768px){
+    .v-container {
+        flex-direction: column !important;
+    }
+}

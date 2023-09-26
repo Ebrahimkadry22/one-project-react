@@ -1,0 +1,79 @@
+.hero-wrapper {
+color: white;
+position: relative;
+padding-bottom: 2rem;
+background-color: var(--black);
+margin-top: -1px;
+}
+.hero-container {
+    justify-content: space-between;
+}
+
+.hero-title {
+    position: relative;
+    z-index: 1;
+    margin-bottom: 1rem;
+}
+.hero-title>h1 {
+    font-weight: 600;
+    font-size: 3.8rem;
+    line-height: 4rem;
+}
+
+.hero-title>h1>span {
+    color: var(--blue);
+}
+.hero-des {
+    font-weight: 300;
+    margin-bottom: 1rem;
+    
+}
+.hero-des>p>span {
+    color: var(--blue);
+}
+
+.search-bar {
+    background-color: white;
+    padding: .4rem;
+    border-radius: 8px;
+    justify-content: space-between !important;
+    width: 100%;
+    margin-bottom: 1rem;
+}
+.search-bar>input {
+    border: none;
+    outline: none;
+    
+}
+.stats {
+    gap: 2rem;
+}
+.stat>:nth-child(1)>:last-child {
+    color: var(--blue);
+}
+.image-container {
+    width: 23rem;
+    height: 31rem;
+    overflow: hidden;
+    border-radius: 15rem 15rem .2rem .2rem;
+    border: 5px solid rgba(255, 255, 255 , .7);
+}
+.image-container>img {
+    width: 100%;
+    height: 100%;
+}
+
+@media (max-width: 640px) {
+    .hero-container {
+        flex-direction: column;
+        justify-content: center !important;
+        
+    }
+    .search-bar {
+        flex-wrap: nowrap;
+    }
+}
+@media (min-width: 768px){
+    
+    
+}

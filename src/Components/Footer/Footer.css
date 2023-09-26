@@ -1,0 +1,9 @@
+.f-container {
+    justify-content: space-between !important;
+}
+.f-menu {
+    gap: 1.2rem;
+    margin-top: 1.1rem;
+    font-weight: 600;
+    cursor: pointer;
+}
